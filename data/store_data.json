@@ -1,0 +1,1986 @@
+{
+  "version": "1.0",
+  "serverSyncedAt": "2026-09-19T10:30:00Z",
+  "activeStoreId": "store-poderemporium-001",
+  "stores": [
+    {
+      "id": "store-poderemporium-001",
+      "slug": "poderemporium-perfect-boutique",
+      "status": "active",
+      "businessInfo": {
+        "storeName": "Poder Emporium",
+        "businessName": "Poder Emporium",
+        "tradingName": "Poder Emporium",
+        "registrationNumber": "2023/889214/07",
+        "vatNumber": "4820391823",
+        "email": "info@poderemporium.co.za",
+        "supportEmail": "care@poderemporium.co.za",
+        "phone": "071 804 1085",
+        "whatsappNumber": "+27 71 804 1085",
+        "websiteUrl": "https://www.poderemporium.co.za",
+        "address": "Jones Rd, Boksburg, 1459, South Africa",
+        "city": "Boksburg",
+        "provinceState": "Gauteng",
+        "postalCode": "1459",
+        "country": "South Africa",
+        "businessHours": "Mon - Fri: 08:30 - 17:30 | Sat: 09:00 - 15:00",
+        "footerDescription": "South Africa’s premier destination for handcrafted luxury footwear, tailored formal shoes, and plush bespoke slippers. Curated for the discerning individual."
+      },
+      "branding": {
+        "logoUrl": "/branding/poder-emporium-mark.png",
+        "mobileLogoUrl": "/branding/poder-emporium-mark.png",
+        "faviconUrl": "/branding/poder-emporium-favicon.png",
+        "storeIconUrl": "/branding/poder-emporium-favicon.png",
+        "emailLogoUrl": "",
+        "socialShareImageUrl": "",
+        "primaryColor": "#0F172A",
+        "secondaryColor": "#D97706",
+        "accentColor": "#B45309",
+        "buttonColor": "#0F172A",
+        "buttonTextColor": "#FFFFFF",
+        "backgroundColor": "#FAFAF9",
+        "surfaceColor": "#FFFFFF",
+        "textColor": "#1E293B",
+        "fontFamily": "Inter, sans-serif",
+        "headingFont": "Playfair Display, serif",
+        "borderRadius": "rounded-xl",
+        "bannerText": "Complimentary nationwide courier delivery on all South African orders over R1,500.",
+        "tagline": "Handcrafted Luxury Footwear & Bespoke Elegance",
+        "heroTitle": "Crafted For Distinction",
+        "heroSubtitle": "Discover South Africa’s finest collection of handcrafted formal shoes, Italian leather loafers, and plush velvet slippers.",
+        "heroButtonText": "Shop Collection",
+        "heroButtonLink": "/collections/formal-footwear",
+        "heroSecondaryButtonText": "Book Bespoke Fitting",
+        "heroSecondaryButtonLink": "/pages/bespoke-fittings",
+        "heroImageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1600&auto=format&fit=crop"
+      },
+      "regional": {
+        "country": "South Africa",
+        "countryCode": "ZA",
+        "currency": "ZAR",
+        "currencySymbol": "R",
+        "currencyPosition": "prefix",
+        "decimalPlaces": 2,
+        "timeZone": "Africa/Johannesburg",
+        "dateFormat": "DD/MM/YYYY",
+        "timeFormat": "24h",
+        "measurementSystem": "metric"
+      },
+      "social": {
+        "facebook": {
+          "enabled": true,
+          "url": "https://facebook.com/poderemporium"
+        },
+        "instagram": {
+          "enabled": true,
+          "url": "https://instagram.com/poderemporium"
+        },
+        "tiktok": {
+          "enabled": true,
+          "url": "https://tiktok.com/@poderemporium"
+        },
+        "youtube": {
+          "enabled": false,
+          "url": ""
+        },
+        "twitter": {
+          "enabled": true,
+          "url": "https://x.com/poderemporium"
+        },
+        "linkedin": {
+          "enabled": false,
+          "url": ""
+        },
+        "whatsapp": {
+          "enabled": true,
+          "url": "https://wa.me/27825550199"
+        }
+      },
+      "payments": {
+        "payfast": {
+          "enabled": true,
+          "merchantId": "",
+          "merchantKey": "",
+          "passphrase": "",
+          "sandboxMode": false
+        },
+        "yoco": {
+          "enabled": false,
+          "publicKey": "pk_test_ed37492190823908",
+          "secretKey": "sk_test_****************",
+          "testMode": true
+        },
+        "ozow": {
+          "enabled": false,
+          "siteCode": "ASH-001",
+          "apiKey": "key_test_ozow_9837",
+          "testMode": true
+        },
+        "payjustnow": {
+          "enabled": false,
+          "merchantId": "PJN_PODER_ZA",
+          "testMode": true
+        },
+        "payflex": {
+          "enabled": false,
+          "merchantId": "PFX_PODER_98",
+          "testMode": true
+        },
+        "eft": {
+          "enabled": false,
+          "bankName": "First National Bank (FNB)",
+          "accountHolder": "Poder Emporium",
+          "accountNumber": "62883920192",
+          "accountType": "Business Cheque Account",
+          "branchCode": "250655 (Boksburg)",
+          "referenceInstructions": "Please use your Order Number (e.g. APB-10024) as the EFT payment reference and email POP to accounts@poderemporium.co.za"
+        },
+        "cod": {
+          "enabled": false,
+          "instructions": "Pay cash or swipe card upon doorstep courier delivery in Gauteng only.",
+          "maxOrderValue": 3000
+        }
+      },
+      "shippingZones": [
+        {
+          "id": "zone-gauteng",
+          "name": "Gauteng Express Hub",
+          "countries": [
+            "South Africa"
+          ],
+          "regions": [
+            "Gauteng"
+          ]
+        },
+        {
+          "id": "zone-major-cities",
+          "name": "Major SA Metros (Cape Town, Durban, PE, Bloemfontein)",
+          "countries": [
+            "South Africa"
+          ],
+          "regions": [
+            "Western Cape",
+            "KwaZulu-Natal",
+            "Eastern Cape",
+            "Free State"
+          ]
+        },
+        {
+          "id": "zone-regional-sa",
+          "name": "Regional & Outlying South Africa",
+          "countries": [
+            "South Africa"
+          ],
+          "regions": [
+            "Limpopo",
+            "Mpumalanga",
+            "North West",
+            "Northern Cape"
+          ]
+        },
+        {
+          "id": "zone-international",
+          "name": "Southern Africa SADC & International",
+          "countries": [
+            "Namibia",
+            "Botswana",
+            "Zimbabwe",
+            "United Kingdom",
+            "United States"
+          ],
+          "regions": []
+        }
+      ],
+      "shippingMethods": [
+        {
+          "id": "ship-standard",
+          "name": "Standard Door-to-Door Courier (The Courier Guy / Fastway)",
+          "description": "Reliable nationwide delivery with live SMS tracking (3–5 business days).",
+          "price": 99,
+          "freeShippingThreshold": 1200,
+          "estimatedDeliveryTime": "3–5 Business Days",
+          "active": true,
+          "applicableZones": [
+            "all"
+          ]
+        },
+        {
+          "id": "ship-express",
+          "name": "Gauteng Next-Day Priority Delivery",
+          "description": "Dispatched same day if ordered before 12:00 PM.",
+          "price": 149,
+          "freeShippingThreshold": 2000,
+          "estimatedDeliveryTime": "1–2 Business Days",
+          "active": true,
+          "applicableZones": [
+            "zone-gauteng"
+          ]
+        },
+        {
+          "id": "ship-overnight",
+          "name": "Express Air Freight (Main Metros)",
+          "description": "Overnight priority express to CPT, DBN, JHB & PTA.",
+          "price": 199,
+          "estimatedDeliveryTime": "24–48 Hours",
+          "active": true,
+          "applicableZones": [
+            "zone-gauteng",
+            "zone-major-cities"
+          ]
+        },
+        {
+          "id": "ship-intl",
+          "name": "DHL Express International Courier",
+          "description": "Fully insured global express with customs pre-clearance.",
+          "price": 450,
+          "estimatedDeliveryTime": "4–7 Business Days",
+          "active": true,
+          "applicableZones": [
+            "zone-international"
+          ]
+        }
+      ],
+      "tax": {
+        "enabled": true,
+        "taxName": "VAT",
+        "taxPercentage": 15,
+        "pricesIncludeTax": true,
+        "taxByRegion": []
+      },
+      "attributes": [
+        {
+          "id": "attr-size",
+          "name": "Size",
+          "slug": "size",
+          "type": "button",
+          "options": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "UK 5",
+            "UK 6",
+            "UK 7",
+            "UK 8",
+            "UK 9",
+            "UK 10",
+            "UK 11",
+            "UK 12"
+          ]
+        },
+        {
+          "id": "attr-color",
+          "name": "Colour",
+          "slug": "colour",
+          "type": "color",
+          "options": [
+            "Onyx Black",
+            "Cognac Tan",
+            "Midnight Navy",
+            "Oxblood Burgundy",
+            "Chocolate Brown",
+            "Emerald Green",
+            "Ivory Cream",
+            "Rose Blush",
+            "Sage Green",
+            "Royal Purple",
+            "Sunset Orange"
+          ],
+          "colorPalette": {
+            "Onyx Black": "#111827",
+            "Cognac Tan": "#A16207",
+            "Midnight Navy": "#172554",
+            "Oxblood Burgundy": "#7F1D1D",
+            "Chocolate Brown": "#78350F",
+            "Emerald Green": "#047857",
+            "Ivory Cream": "#FFFBEB",
+            "Rose Blush": "#F9A8D4",
+            "Sage Green": "#84A98C",
+            "Royal Purple": "#6D28D9",
+            "Sunset Orange": "#F97316"
+          }
+        },
+        {
+          "id": "attr-material",
+          "name": "Material",
+          "slug": "material",
+          "type": "select",
+          "options": [
+            "Calfskin Leather",
+            "Suede",
+            "Velvet",
+            "Sheepskin Shearling",
+            "Crocodile Embossed Leather"
+          ]
+        },
+        {
+          "id": "attr-gender",
+          "name": "Gender",
+          "slug": "gender",
+          "type": "select",
+          "options": [
+            "Men",
+            "Women",
+            "Unisex"
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "id": "cat-men",
+          "storeId": "store-poderemporium-001",
+          "name": "Men",
+          "slug": "men",
+          "description": "Refined handcrafted footwear, loafers, boots, and luxury slippers designed for gentlemen.",
+          "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=800&auto=format&fit=crop",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "id": "cat-women",
+          "storeId": "store-poderemporium-001",
+          "name": "Women",
+          "slug": "women",
+          "description": "Elegant heels, designer mules, ballet flats, and bespoke boudoir slippers.",
+          "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "id": "cat-men-shoes",
+          "storeId": "store-poderemporium-001",
+          "name": "Men's Shoes",
+          "slug": "mens-shoes",
+          "description": "Oxford brogues, derby formals, Chelsea boots, and driver loafers.",
+          "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=800&auto=format&fit=crop",
+          "parentId": "cat-men",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "id": "cat-women-shoes",
+          "storeId": "store-poderemporium-001",
+          "name": "Women's Shoes",
+          "slug": "womens-shoes",
+          "description": "Sculpted stilettos, luxury loafers, slingbacks, and artisan boots.",
+          "imageUrl": "https://images.unsplash.com/photo-1581101767113-1677fc2beaa8?q=80&w=800&auto=format&fit=crop",
+          "parentId": "cat-women",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "id": "cat-men-slippers",
+          "storeId": "store-poderemporium-001",
+          "name": "Men's Slippers",
+          "slug": "mens-slippers",
+          "description": "Monogrammed velvet smoking slippers, sheepskin house shoes, and leather mules.",
+          "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop",
+          "parentId": "cat-men",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "id": "cat-women-slippers",
+          "storeId": "store-poderemporium-001",
+          "name": "Women's Slippers",
+          "slug": "womens-slippers",
+          "description": "Plush shearling slides, silk-lined boudoir slippers, and memory-foam house mules.",
+          "imageUrl": "https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=800&auto=format&fit=crop",
+          "parentId": "cat-women",
+          "order": 6,
+          "enabled": true
+        }
+      ],
+      "collections": [
+        {
+          "id": "col-new-arrivals",
+          "storeId": "store-poderemporium-001",
+          "name": "New Arrivals 2026",
+          "slug": "new-arrivals",
+          "description": "Our latest seasonal collection crafted with Italian leathers and artisan finesse.",
+          "imageUrl": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=800&auto=format&fit=crop",
+          "enabled": true,
+          "rules": "new"
+        },
+        {
+          "id": "col-best-sellers",
+          "storeId": "store-poderemporium-001",
+          "name": "Best Sellers",
+          "slug": "best-sellers",
+          "description": "Our most sought-after formal shoes and bespoke comfort slippers.",
+          "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800&auto=format&fit=crop",
+          "enabled": true,
+          "rules": "featured"
+        },
+        {
+          "id": "col-velvet-series",
+          "storeId": "store-poderemporium-001",
+          "name": "Royal Velvet & Smoking Slippers",
+          "slug": "royal-velvet-series",
+          "description": "Hand-embroidered evening slippers designed for distinguished black-tie occasions.",
+          "imageUrl": "https://images.unsplash.com/photo-1582845512747-e42001c95638?q=80&w=800&auto=format&fit=crop",
+          "enabled": true,
+          "rules": "manual"
+        },
+        {
+          "id": "col-sale",
+          "storeId": "store-poderemporium-001",
+          "name": "Private Vault Sale",
+          "slug": "sale",
+          "description": "Select handcrafted pieces at special promotional pricing.",
+          "imageUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=800&auto=format&fit=crop",
+          "enabled": true,
+          "rules": "sale"
+        }
+      ],
+      "navigation": [
+        {
+          "id": "nav-home",
+          "label": "Home",
+          "linkType": "custom",
+          "url": "/",
+          "order": 1
+        },
+        {
+          "id": "nav-about",
+          "label": "About Us",
+          "linkType": "page",
+          "targetId": "page-about",
+          "order": 2
+        },
+        {
+          "id": "nav-contact",
+          "label": "Contact",
+          "linkType": "page",
+          "targetId": "page-contact",
+          "order": 3
+        }
+      ],
+      "homepageSections": [
+        {
+          "id": "sec-hero",
+          "type": "hero_banner",
+          "title": "Artisan Footwear & Bespoke Slippers",
+          "subtitle": "Indulge in meticulous craftsmanship, hand-finished South African and Italian leathers, and tailored comfort.",
+          "enabled": true,
+          "order": 1,
+          "data": {
+            "headline": "Elegance In Every Stride",
+            "subheadline": "Discover the 2026 Collection of Handcrafted Shoes, Velvet Smoking Slippers & Designer Heels.",
+            "buttonText": "Explore Collection",
+            "buttonLink": "/shop",
+            "secondaryButtonText": "View New Arrivals",
+            "secondaryButtonLink": "/collections/new-arrivals",
+            "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1600&auto=format&fit=crop",
+            "badge": "Spring / Summer 2026 Preview"
+          }
+        },
+        {
+          "id": "sec-categories",
+          "type": "featured_categories",
+          "title": "Shop By Category",
+          "subtitle": "Explore our distinctive collections for men and women.",
+          "enabled": true,
+          "order": 2,
+          "data": {
+            "layout": "grid-4",
+            "categoryIds": [
+              "cat-men-shoes",
+              "cat-women-shoes",
+              "cat-men-slippers",
+              "cat-women-slippers"
+            ]
+          }
+        },
+        {
+          "id": "sec-featured-products",
+          "type": "product_grid",
+          "title": "Curated Signatures",
+          "subtitle": "Our most celebrated handcrafted silhouettes, tailored for discerning taste.",
+          "enabled": true,
+          "order": 3,
+          "data": {
+            "limit": 8,
+            "filter": "featured"
+          }
+        },
+        {
+          "id": "sec-promo",
+          "type": "promo_banner",
+          "title": "Complimentary Shoe Care Kit",
+          "subtitle": "Receive a bespoke horn, cedar shoe trees, and organic leather balm on all orders exceeding R1,500.",
+          "enabled": true,
+          "order": 4,
+          "data": {
+            "discountCode": "COMPLIMENTARY-CARE",
+            "buttonText": "Shop Eligible Pairs",
+            "buttonLink": "/shop",
+            "bgImage": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?q=80&w=1600&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": "sec-countdown",
+          "type": "countdown_deal",
+          "title": "Limited Artisan Batch Release",
+          "subtitle": "Pre-order the Hand-Polished Oxblood Wholecut Oxford. Only 50 pairs handcrafted in this batch.",
+          "enabled": true,
+          "order": 5,
+          "data": {
+            "targetDate": "2026-09-15T23:59:59",
+            "productId": "prod-poderemporium-001",
+            "offerTag": "Exclusive Limited Run — 20% Off Pre-Order"
+          }
+        },
+        {
+          "id": "sec-testimonials",
+          "type": "testimonials",
+          "title": "Words From Our Patrons",
+          "subtitle": "Over 2,400 satisfied clients across South Africa and abroad.",
+          "enabled": true,
+          "order": 6,
+          "data": {
+            "items": [
+              {
+                "quote": "The craftsmanship on my Oxford brogues is world-class. Wore them to a gala in Sandton and received compliments all night.",
+                "author": "Kagiso M.",
+                "location": "Sandton, Johannesburg",
+                "rating": 5
+              },
+              {
+                "quote": "The velvet monogram slippers are like walking on clouds. Fast courier to Cape Town and beautifully boxed.",
+                "author": "Liezl van der Merwe",
+                "location": "Camps Bay, Cape Town",
+                "rating": 5
+              },
+              {
+                "quote": "Unmatched customer service on WhatsApp. They assisted with size exchange within 24 hours without hassle.",
+                "author": "Dr. Thabo Sithole",
+                "location": "Umhlanga, Durban",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "sec-newsletter",
+          "type": "newsletter",
+          "title": "Join The Poder Emporium Circle",
+          "subtitle": "Subscribe to receive private invitations to bespoke trunk shows, new drops, and member-only privileges.",
+          "enabled": true,
+          "order": 7,
+          "data": {
+            "buttonText": "Request Invitation",
+            "placeholder": "Enter your email address",
+            "disclaimer": "We respect your privacy. Unsubscribe at any time."
+          }
+        }
+      ],
+      "pages": [
+        {
+          "id": "page-about",
+          "storeId": "store-poderemporium-001",
+          "title": "About Poder Emporium",
+          "slug": "about-us",
+          "content": "## The Art of Bespoke Footwear & Comfort\n\nFounded with a singular vision in Johannesburg, **Poder Emporium** represents the pinnacle of luxury footwear craftsmanship and bespoke leisure slippers in South Africa.\n\n### Our Heritage & Craft\nEvery pair in our atelier is meticulously constructed using full-grain leathers, plush velvets, and anatomical cork footbeds. We blend time-honoured shoemaking techniques with contemporary silhouette engineering.\n\n* **Ethically Sourced Leathers**: Hand-selected calfskins, suede, and shearling.\n* **Goodyear Welt & Blake Stitching**: Providing structural longevity and resolability.\n* **Comfort Engineering**: Multi-density memory foam footbeds for day-to-night luxury.\n\n### Atelier & Flagship\nVisit our private styling salon in Boksburg, Gauteng, by appointment or order securely online with nationwide tracked courier delivery.",
+          "seoTitle": "About Us | Poder Emporium",
+          "seoDescription": "Discover the story, craftsmanship, and heritage behind Poder Emporium luxury footwear.",
+          "published": true,
+          "showInHeader": true,
+          "showInFooter": true,
+          "updatedAt": "2026-08-25"
+        },
+        {
+          "id": "page-contact",
+          "storeId": "store-poderemporium-001",
+          "title": "Contact Us & Client Concierge",
+          "slug": "contact-us",
+          "content": "## We Are At Your Service\n\nHave an enquiry regarding sizing, custom monograms, or shipping updates? Our client concierge is standing by to assist you.\n\n### Concierge Details\n* **WhatsApp Concierge**: +27 71 804 1085\n* **Direct Telephone**: 071 804 1085\n* **General Enquiries**: info@poderemporium.co.za\n* **Client Care & Exchanges**: care@poderemporium.co.za\n\n### Showroom Address\nJones Rd, Boksburg, 1459, South Africa\n\n### Operating Hours\nMonday – Friday: 08:30 – 17:30  \nSaturday: 09:00 – 15:00  \nSundays & Public Holidays: Closed",
+          "seoTitle": "Contact Us | Poder Emporium Concierge",
+          "seoDescription": "Reach our customer support team via WhatsApp, telephone or service and collection in Boksburg.",
+          "published": true,
+          "showInHeader": true,
+          "showInFooter": true,
+          "updatedAt": "2026-08-25"
+        },
+        {
+          "id": "page-delivery",
+          "storeId": "store-poderemporium-001",
+          "title": "Delivery & Nationwide Shipping",
+          "slug": "delivery-policy",
+          "content": "## Fast & Secure Nationwide Delivery\n\nWe partner with South Africa's premier courier networks (The Courier Guy, Dawn Wing, and DHL Express) to ensure your purchase arrives promptly and securely.\n\n### Delivery Rates & Timelines\n* **Standard Delivery (R99)**: 3–5 business days nationwide. Complimentary on orders over R1,200.\n* **Gauteng Priority Delivery (R149)**: 1–2 business days.\n* **Overnight Express Air (R199)**: Major metropolitan hubs (JHB, CPT, DBN, PLZ, BFN).\n* **International DHL Express (R450)**: 4–7 business days.\n\nAll shipments are fully insured and include live SMS and email tracking links.",
+          "seoTitle": "Delivery & Shipping Policy | Poder Emporium",
+          "seoDescription": "Nationwide South African courier delivery rates, timelines, and tracking info.",
+          "published": true,
+          "showInHeader": false,
+          "showInFooter": true,
+          "updatedAt": "2026-08-25"
+        },
+        {
+          "id": "page-returns",
+          "storeId": "store-poderemporium-001",
+          "title": "Returns & Size Exchanges",
+          "slug": "returns-policy",
+          "content": "## Hassle-Free 14-Day Returns & Complimentary Size Exchanges\n\nWe want you to step into your new pair with absolute confidence.\n\n### Size Exchanges\nWe offer **one complimentary size exchange** per order within South Africa. Simply contact our WhatsApp concierge (+27 71 804 1085) or email care@poderemporium.co.za and we will arrange courier collection from your doorstep.\n\n### Return Conditions\n1. Items must be unworn, in pristine original condition, and with all protective films, dust bags, and boxes intact.\n2. Shoes must be tried on carpeted surfaces only to prevent scuff marks on leather soles.\n3. Return requests must be initiated within 14 days of parcel delivery.",
+          "seoTitle": "Returns & Exchange Policy | Poder Emporium",
+          "seoDescription": "Information on 14-day returns and complimentary size exchanges.",
+          "published": true,
+          "showInHeader": false,
+          "showInFooter": true,
+          "updatedAt": "2026-08-25"
+        },
+        {
+          "id": "page-terms",
+          "storeId": "store-poderemporium-001",
+          "title": "Terms of Service",
+          "slug": "terms-of-service",
+          "content": "## Terms & Conditions of Sale\n\nBy accessing or making a purchase on Poder Emporium, you agree to the following terms and conditions governed by the laws of the Republic of South Africa.\n\n### Pricing & Payments\nAll prices are displayed in South African Rand (ZAR) and are inclusive of 15% Value Added Tax (VAT) unless otherwise indicated. We accept secure payments through PayFast only.",
+          "seoTitle": "Terms of Service | Poder Emporium",
+          "seoDescription": "Legal terms and conditions governing purchases and site usage.",
+          "published": true,
+          "showInHeader": false,
+          "showInFooter": true,
+          "updatedAt": "2026-08-25"
+        },
+        {
+          "id": "page-privacy",
+          "storeId": "store-poderemporium-001",
+          "title": "Privacy & POPIA Compliance",
+          "slug": "privacy-policy",
+          "content": "## Protection of Personal Information (POPIA)\n\nPoder Emporium is committed to safeguarding your privacy and processing your personal information in strict accordance with the South African Protection of Personal Information Act (POPIA).\n\nWe do not sell, rent, or trade your personal information to third parties under any circumstances.",
+          "seoTitle": "Privacy Policy | Poder Emporium",
+          "seoDescription": "Learn how we protect your personal data in accordance with POPIA regulations.",
+          "published": true,
+          "showInHeader": false,
+          "showInFooter": true,
+          "updatedAt": "2026-08-25"
+        },
+        {
+          "id": "page-size-guide",
+          "storeId": "store-poderemporium-001",
+          "title": "Bespoke Size & Fit Guide",
+          "slug": "size-guide",
+          "content": "## Footwear & Slipper Sizing Chart\n\nOur shoes follow standard **UK / South African** sizing. If you are between sizes, we recommend sizing up for casual loafers and slippers, and sizing down for wholecut dress oxfords.\n\n| UK / SA | EU | US Men | US Women | Foot Length (cm) |\n|---|---|---|---|---|\n| UK 5 | 38 | 6.0 | 7.5 | 24.5 cm |\n| UK 6 | 39 | 7.0 | 8.5 | 25.4 cm |\n| UK 7 | 40 | 8.0 | 9.5 | 26.0 cm |\n| UK 8 | 41 | 9.0 | 10.5 | 27.0 cm |\n| UK 9 | 42 | 10.0 | 11.5 | 27.8 cm |\n| UK 10 | 43 | 11.0 | 12.5 | 28.6 cm |\n| UK 11 | 44 | 12.0 | 13.5 | 29.4 cm |\n| UK 12 | 45 | 13.0 | 14.5 | 30.2 cm |",
+          "seoTitle": "Size Guide | Poder Emporium",
+          "seoDescription": "Accurate UK, EU, and US size conversion chart for footwear and slippers.",
+          "published": true,
+          "showInHeader": false,
+          "showInFooter": true,
+          "updatedAt": "2026-08-25"
+        }
+      ],
+      "emailSettings": {
+        "smtpHost": "mail.mkcosts.co.za",
+        "smtpPort": 587,
+        "smtpUsername": "test@mkcosts.co.za",
+        "smtpPassword": "Makumbila@123",
+        "popImapServer": "mail.mkcosts.co.za",
+        "encryption": "tls",
+        "senderName": "Poder Emporium",
+        "senderEmail": "test@mkcosts.co.za",
+        "replyToEmail": "test@mkcosts.co.za",
+        "autoNotifyOnOrderPlaced": true,
+        "autoNotifyOnStatusUpdate": true,
+        "autoNotifyOnShipped": true,
+        "autoNotifyOnDelivered": true,
+        "autoNotifyOnCancelled": true
+      },
+      "emailTemplates": [
+        {
+          "id": "tmpl-order-confirm",
+          "name": "Order Confirmation",
+          "subject": "Order Confirmed — #{{order_number}} from {{store_name}}",
+          "description": "Sent automatically to the customer when their order is placed.",
+          "body": "Hi {{customer_name}},\n\nThank you for choosing {{store_name}}! We are thrilled to confirm your order #{{order_number}}.\n\nOrder Total: {{order_total}}\nShipping Address: {{shipping_address}}\n\nWe are currently preparing your items for dispatch. You will receive another notification with your tracking details as soon as it ships.\n\nNeed help? Contact our team at {{support_email}} or message us on WhatsApp at {{whatsapp_number}}.\n\nWarm regards,\nThe {{store_name}} Team"
+        },
+        {
+          "id": "tmpl-order-shipped",
+          "name": "Order Shipped",
+          "subject": "Your order #{{order_number}} is on the way! 🚚",
+          "description": "Sent when the order status is updated to Shipped.",
+          "body": "Hi {{customer_name}},\n\nGreat news! Your order #{{order_number}} from {{store_name}} has been handed over to our courier partner.\n\nTracking Number: {{tracking_number}}\nEstimated Delivery: 2-4 business days\n\nTrack your parcel here: {{tracking_link}}\n\nWarm regards,\n{{store_name}} Dispatch Team"
+        },
+        {
+          "id": "tmpl-welcome",
+          "name": "Welcome Email",
+          "subject": "Welcome to {{store_name}} ✨",
+          "description": "Sent to newly registered customers.",
+          "body": "Hi {{customer_name}},\n\nWelcome to {{store_name}}! We are delighted to have you as part of our community.\n\nExplore our latest arrivals, exclusive collections, and enjoy tailored customer support whenever you need it.\n\nVisit Store: {{store_url}}\n\nBest regards,\n{{store_name}}"
+        },
+        {
+          "id": "tmpl-refund",
+          "name": "Refund Issued",
+          "subject": "Refund Processed for Order #{{order_number}}",
+          "description": "Sent when an order is cancelled or refunded.",
+          "body": "Hi {{customer_name}},\n\nA refund of {{refund_amount}} for your order #{{order_number}} has been initiated. Depending on your banking provider, funds typically reflect within 3-5 business days.\n\nIf you have questions, please reply to this email or contact {{support_email}}.\n\nSincerely,\n{{store_name}} Accounts Team"
+        }
+      ],
+      "whatsApp": {
+        "enabled": true,
+        "phoneNumber": "27825550199",
+        "enableFloatingButton": true,
+        "enableProductEnquiry": true,
+        "enableOrderEnquiry": true,
+        "floatingPosition": "bottom-right",
+        "productMessageTemplate": "Hello {{store_name}}, I'm interested in ordering '{{product_name}}' (SKU: {{sku}}). Please assist me with availability.",
+        "orderMessageTemplate": "Hello {{store_name}}, I would like an update on my order #{{order_number}}.",
+        "generalMessageTemplate": "Hello {{store_name}}, I would like some assistance with your luxury collection."
+      },
+      "checkoutSettings": {
+        "allowGuestCheckout": true,
+        "requireAccount": false,
+        "requirePhone": true,
+        "showCompanyField": true,
+        "showVatField": true,
+        "requireAddressLine2": false,
+        "requireTermsAcceptance": true,
+        "termsPageSlug": "terms-of-service",
+        "enableNewsletterOptIn": true,
+        "defaultNewsletterChecked": true,
+        "enableOrderNotes": true,
+        "minimumOrderAmount": 0
+      },
+      "customerSettings": {
+        "registrationEnabled": true,
+        "enableWishlist": true,
+        "enableProductComparison": true,
+        "enableReviews": true,
+        "reviewsRequireApproval": false,
+        "reviewsVerifiedOnly": false,
+        "enableRatingSystem": true
+      },
+      "inventorySettings": {
+        "enableInventoryTracking": true,
+        "allowBackorders": true,
+        "lowStockThreshold": 3,
+        "hideOutOfStockProducts": false,
+        "showStockQuantity": true,
+        "reserveStockDuringCheckout": true,
+        "autoReduceStockOnPayment": true,
+        "autoRestoreStockOnCancel": true
+      },
+      "orderSettings": {
+        "orderNumberPrefix": "APB",
+        "startingOrderNumber": 10024,
+        "autoSendConfirmationEmail": true,
+        "allowCustomerCancellation": true,
+        "cancellationTimeLimitHours": 12
+      },
+      "seoSettings": {
+        "siteTitle": "Poder Emporium | Luxury Footwear & Bespoke Slippers SA",
+        "metaDescription": "Shop handcrafted Italian leather shoes, oxford formals, velvet smoking slippers, and designer heels in South Africa.",
+        "defaultKeywords": [
+          "luxury footwear south africa",
+          "bespoke slippers",
+          "mens oxford shoes johannesburg",
+          "velvet smoking slippers",
+          "designer heels"
+        ]
+      },
+      "features": {
+        "customerAccounts": true,
+        "wishlist": true,
+        "productReviews": true,
+        "productRatings": true,
+        "coupons": true,
+        "giftCards": true,
+        "newsletter": true,
+        "whatsAppButton": true,
+        "productComparison": true,
+        "quickView": true,
+        "abandonedCartReminders": true,
+        "guestCheckout": true,
+        "customPages": true,
+        "searchFilter": true,
+        "currencySwitcher": true
+      },
+      "domain": {
+        "primaryDomain": "www.poderemporium.co.za",
+        "storeSubdomain": "poderemporium.omnicommerce.app",
+        "customDomain": "www.poderemporium.co.za",
+        "rootDomain": "poderemporium.co.za",
+        "customDomainVerified": true,
+        "sslActive": true,
+        "sslStatus": "active",
+        "sslIssuedAt": "2026-01-16T10:00:00Z",
+        "sslExpiresAt": "2027-01-16T10:00:00Z",
+        "forceHttps": true,
+        "redirectWww": true,
+        "ingressIp": "34.117.182.95",
+        "cnameTarget": "cname.omnicommerce.app",
+        "verificationToken": "omni-verify=poder-za-99201",
+        "lastDnsCheck": "2026-09-02T01:15:00Z",
+        "dnsRecords": [
+          {
+            "id": "dns-1",
+            "type": "A",
+            "host": "@",
+            "target": "34.117.182.95",
+            "ttl": "300",
+            "status": "verified",
+            "description": "Directs root domain (poderemporium.co.za) to OmniCommerce Edge Proxy"
+          },
+          {
+            "id": "dns-2",
+            "type": "CNAME",
+            "host": "www",
+            "target": "cname.omnicommerce.app",
+            "ttl": "300",
+            "status": "verified",
+            "description": "Directs www traffic with Let's Encrypt auto-managed SSL wildcard"
+          },
+          {
+            "id": "dns-3",
+            "type": "TXT",
+            "host": "_omnicommerce-verify",
+            "target": "omni-verify=poder-za-99201",
+            "ttl": "3600",
+            "status": "verified",
+            "description": "Cryptographic ownership verification for custom domain delegation"
+          },
+          {
+            "id": "dns-4",
+            "type": "TXT",
+            "host": "@",
+            "target": "v=spf1 include:mail.mkcosts.co.za ~all",
+            "ttl": "3600",
+            "status": "verified",
+            "description": "SPF Record authorizing transactional mail delivery from mail.mkcosts.co.za"
+          }
+        ]
+      },
+      "merchantProfile": {
+        "ownerName": "Poder Emporium",
+        "ownerEmail": "info@poderemporium.co.za",
+        "ownerPhone": "+27 71 804 1085",
+        "companyRegistrationNumber": "2023/849201/07",
+        "vatRegistrationNumber": "4920192837",
+        "planTier": "enterprise",
+        "accountStatus": "active",
+        "billingCycle": "monthly",
+        "monthlyPlanPrice": 1499,
+        "currency": "ZAR",
+        "signupDate": "2026-01-15T08:00:00Z",
+        "lastLoginDate": "2026-09-02T01:30:00Z",
+        "primaryContactTitle": "Managing Director & Founder",
+        "billingAddress": {
+          "street": "Jones Rd",
+          "city": "Boksburg",
+          "provinceState": "Gauteng",
+          "postalCode": "1459",
+          "country": "South Africa"
+        },
+        "staffAccounts": [
+          {
+            "id": "staff-1",
+            "name": "Poder Emporium",
+            "email": "info@poderemporium.co.za",
+            "role": "owner",
+            "status": "active",
+            "lastLogin": "2026-09-02T01:30:00Z"
+          },
+          {
+            "id": "staff-2",
+            "name": "Thabo Mokoena",
+            "email": "ops@poderemporium.co.za",
+            "role": "inventory_manager",
+            "status": "active",
+            "lastLogin": "2026-09-01T16:20:00Z"
+          }
+        ],
+        "accountTierLimit": {
+          "maxProducts": 5000,
+          "maxOrdersPerMonth": 25000,
+          "customDomainAllowed": true,
+          "prioritySupport": true
+        }
+      },
+      "maintenance": {
+        "enabled": false,
+        "title": "Our Atelier Is Updating",
+        "message": "We are currently curating our newest seasonal drops. Please check back shortly or reach out via WhatsApp.",
+        "estimatedLaunchDate": "2026-09-01",
+        "allowAdminBypass": true
+      },
+      "security": {
+        "maintenanceMode": false,
+        "maintenanceMessage": "We are currently curating our newest seasonal drops. Please check back shortly or reach out via WhatsApp.",
+        "maintenanceBypassPassword": "admin",
+        "enableCookieConsent": true,
+        "twoFactorAuthRequired": false
+      },
+      "onboardingCompletedSteps": [
+        "business_info",
+        "branding",
+        "currency",
+        "payment_gateways",
+        "shipping",
+        "tax",
+        "categories",
+        "products",
+        "navigation",
+        "homepage",
+        "policies",
+        "social_media"
+      ],
+      "createdAt": "2026-01-15T08:00:00Z",
+      "updatedAt": "2026-09-19T10:30:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-ashphets-001",
+      "storeId": "store-poderemporium-001",
+      "name": "Artisan Wholecut Oxford in Oxblood Calfskin",
+      "slug": "artisan-wholecut-oxford-oxblood",
+      "sku": "APB-OXF-001",
+      "description": "Individually cut from a single flawless piece of Italian full-grain calfskin leather, the Wholecut Oxford represents the pinnacle of classical shoe artistry. Hand-burnished in Rosebank to achieve a deep, multidimensional oxblood patina with Goodyear-welted channeled leather soles.\n\n### Features\n* **Upper**: Full-Grain Hand-Polished Italian Calfskin\n* **Lining**: Soft Natural Glove Leather with Moisture-wicking property\n* **Sole**: Traditional Goodyear-Welted Leather Sole with inset rubber heel tap\n* **Craftsmanship**: 180 distinct hand-executed steps per pair\n* **Packaging**: Includes wooden cedar shoe horns, dust bags, and conditioning cream",
+      "shortDescription": "Handcrafted single-piece wholecut oxford in radiant oxblood Italian calfskin with Goodyear-welted leather soles.",
+      "price": 3850,
+      "salePrice": 3450,
+      "costPrice": 1900,
+      "images": [
+        "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-men",
+        "cat-men-shoes"
+      ],
+      "collectionIds": [
+        "col-new-arrivals",
+        "col-best-sellers",
+        "col-sale"
+      ],
+      "tags": [
+        "oxford",
+        "formal",
+        "mens-shoes",
+        "leather",
+        "handcrafted",
+        "oxblood"
+      ],
+      "brand": "Ashphets Atelier",
+      "attributes": [
+        {
+          "attributeId": "attr-size",
+          "selectedOptions": [
+            "UK 6",
+            "UK 7",
+            "UK 8",
+            "UK 9",
+            "UK 10",
+            "UK 11"
+          ]
+        },
+        {
+          "attributeId": "attr-color",
+          "selectedOptions": [
+            "Oxblood Burgundy",
+            "Onyx Black",
+            "Cognac Tan"
+          ]
+        },
+        {
+          "attributeId": "attr-material",
+          "selectedOptions": [
+            "Calfskin Leather"
+          ]
+        },
+        {
+          "attributeId": "attr-gender",
+          "selectedOptions": [
+            "Men"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-oxf-01",
+          "sku": "APB-OXF-01-UK7-OXB",
+          "attributes": {
+            "Size": "UK 7",
+            "Colour": "Oxblood Burgundy"
+          },
+          "price": 3850,
+          "salePrice": 3450,
+          "stock": 8,
+          "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1000&auto=format&fit=crop"
+        },
+        {
+          "id": "v-oxf-02",
+          "sku": "APB-OXF-02-UK8-OXB",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Oxblood Burgundy"
+          },
+          "price": 3850,
+          "salePrice": 3450,
+          "stock": 12,
+          "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1000&auto=format&fit=crop"
+        },
+        {
+          "id": "v-oxf-03",
+          "sku": "APB-OXF-03-UK9-OXB",
+          "attributes": {
+            "Size": "UK 9",
+            "Colour": "Oxblood Burgundy"
+          },
+          "price": 3850,
+          "salePrice": 3450,
+          "stock": 10,
+          "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1000&auto=format&fit=crop"
+        },
+        {
+          "id": "v-oxf-04",
+          "sku": "APB-OXF-04-UK10-OXB",
+          "attributes": {
+            "Size": "UK 10",
+            "Colour": "Oxblood Burgundy"
+          },
+          "price": 3850,
+          "salePrice": 3450,
+          "stock": 5,
+          "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1000&auto=format&fit=crop"
+        },
+        {
+          "id": "v-oxf-05",
+          "sku": "APB-OXF-05-UK8-BLK",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Onyx Black"
+          },
+          "price": 3850,
+          "salePrice": 3450,
+          "stock": 14,
+          "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=1000&auto=format&fit=crop"
+        },
+        {
+          "id": "v-oxf-06",
+          "sku": "APB-OXF-06-UK9-BLK",
+          "attributes": {
+            "Size": "UK 9",
+            "Colour": "Onyx Black"
+          },
+          "price": 3850,
+          "salePrice": 3450,
+          "stock": 9,
+          "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=1000&auto=format&fit=crop"
+        },
+        {
+          "id": "v-oxf-07",
+          "sku": "APB-OXF-07-UK8-TAN",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Cognac Tan"
+          },
+          "price": 3850,
+          "salePrice": 3450,
+          "stock": 7,
+          "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop"
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 65,
+        "allowBackorder": true,
+        "lowStockThreshold": 4
+      },
+      "weight": 1.4,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 42,
+      "seo": {
+        "title": "Artisan Wholecut Oxford in Oxblood Calfskin | Ashphets",
+        "description": "Handmade men luxury dress shoes in Johannesburg.",
+        "keywords": [
+          "mens shoes",
+          "oxford",
+          "luxury"
+        ]
+      },
+      "createdAt": "2026-02-10T09:00:00Z"
+    },
+    {
+      "id": "prod-ashphets-002",
+      "storeId": "store-poderemporium-001",
+      "name": "Bespoke Royal Velvet Monogram Smoking Slipper",
+      "slug": "bespoke-royal-velvet-monogram-slipper",
+      "sku": "APB-SLP-002",
+      "description": "Designed for intimate lounge evenings, black-tie galas, and private club leisure. Handcrafted from heavy silk-cotton Italian velvet with quilted satin lining and a padded memory-foam arch support.\n\n### Details\n* **Upper Material**: Deep Royal Navy or Onyx Black Italian Velvet\n* **Lining**: 100% Breathable Quilted Rose Silk-Satin\n* **Sole**: Natural vegetable-tanned leather sole for outdoor and indoor versatility\n* **Fit**: Standard UK sizing; soft unstructured vamp molds to your foot effortlessly.",
+      "shortDescription": "Plush velvet evening slipper with diamond-quilted satin lining and tailored comfort footbed.",
+      "price": 2450,
+      "costPrice": 950,
+      "images": [
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582845512747-e42001c95638?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-men",
+        "cat-men-slippers"
+      ],
+      "collectionIds": [
+        "col-velvet-series",
+        "col-best-sellers"
+      ],
+      "tags": [
+        "slippers",
+        "velvet",
+        "luxury-leisure",
+        "smoking-shoes"
+      ],
+      "brand": "Ashphets Bespoke",
+      "attributes": [
+        {
+          "attributeId": "attr-size",
+          "selectedOptions": [
+            "UK 6",
+            "UK 7",
+            "UK 8",
+            "UK 9",
+            "UK 10",
+            "UK 11",
+            "UK 12"
+          ]
+        },
+        {
+          "attributeId": "attr-color",
+          "selectedOptions": [
+            "Midnight Navy",
+            "Onyx Black",
+            "Emerald Green"
+          ]
+        },
+        {
+          "attributeId": "attr-material",
+          "selectedOptions": [
+            "Velvet"
+          ]
+        },
+        {
+          "attributeId": "attr-gender",
+          "selectedOptions": [
+            "Men",
+            "Unisex"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-slp-01",
+          "sku": "APB-SLP-01-UK8-NVY",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Midnight Navy"
+          },
+          "price": 2450,
+          "stock": 15
+        },
+        {
+          "id": "v-slp-02",
+          "sku": "APB-SLP-02-UK9-NVY",
+          "attributes": {
+            "Size": "UK 9",
+            "Colour": "Midnight Navy"
+          },
+          "price": 2450,
+          "stock": 18
+        },
+        {
+          "id": "v-slp-03",
+          "sku": "APB-SLP-03-UK10-NVY",
+          "attributes": {
+            "Size": "UK 10",
+            "Colour": "Midnight Navy"
+          },
+          "price": 2450,
+          "stock": 12
+        },
+        {
+          "id": "v-slp-04",
+          "sku": "APB-SLP-04-UK8-BLK",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Onyx Black"
+          },
+          "price": 2450,
+          "stock": 20
+        },
+        {
+          "id": "v-slp-05",
+          "sku": "APB-SLP-05-UK9-BLK",
+          "attributes": {
+            "Size": "UK 9",
+            "Colour": "Onyx Black"
+          },
+          "price": 2450,
+          "stock": 16
+        },
+        {
+          "id": "v-slp-06",
+          "sku": "APB-SLP-06-UK8-EMR",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Emerald Green"
+          },
+          "price": 2450,
+          "stock": 9
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 90,
+        "allowBackorder": true,
+        "lowStockThreshold": 5
+      },
+      "weight": 0.9,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 5,
+      "reviewCount": 38,
+      "seo": {
+        "title": "Bespoke Royal Velvet Monogram Smoking Slipper | Ashphets",
+        "description": "Luxury velvet house shoes and smoking slippers.",
+        "keywords": [
+          "slippers",
+          "velvet shoes"
+        ]
+      },
+      "createdAt": "2026-01-20T11:00:00Z"
+    },
+    {
+      "id": "prod-ashphets-003",
+      "storeId": "store-poderemporium-001",
+      "name": "Aura Sculpted Stiletto Pump in Nappa Calfskin",
+      "slug": "aura-sculpted-stiletto-pump-nappa",
+      "sku": "APB-HEEL-003",
+      "description": "A masterclass in feminine architecture. The Aura Pump features a seductive 95mm stiletto heel balanced by an engineered interior comfort core with forefoot memory cushions. Handcrafted in South Africa from buttery Italian Nappa leather.\n\n### Key Attributes\n* **Heel Height**: 95mm (3.7 inches)\n* **Upper**: Italian Nappa Leather with satin sheen finish\n* **Insole**: Triple-density anatomic foam footbed\n* **Origin**: Handcrafted in South Africa",
+      "shortDescription": "Iconic 95mm pointed stiletto pump in supple Nappa calfskin with cushioned footbed.",
+      "price": 3200,
+      "salePrice": 2890,
+      "costPrice": 1400,
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1581101767113-1677fc2beaa8?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-women",
+        "cat-women-shoes"
+      ],
+      "collectionIds": [
+        "col-new-arrivals",
+        "col-best-sellers",
+        "col-sale"
+      ],
+      "tags": [
+        "heels",
+        "stiletto",
+        "womens-shoes",
+        "nappa-leather",
+        "formal"
+      ],
+      "brand": "Ashphets Femme",
+      "attributes": [
+        {
+          "attributeId": "attr-size",
+          "selectedOptions": [
+            "UK 4",
+            "UK 5",
+            "UK 6",
+            "UK 7",
+            "UK 8"
+          ]
+        },
+        {
+          "attributeId": "attr-color",
+          "selectedOptions": [
+            "Onyx Black",
+            "Cognac Tan",
+            "Oxblood Burgundy"
+          ]
+        },
+        {
+          "attributeId": "attr-material",
+          "selectedOptions": [
+            "Calfskin Leather"
+          ]
+        },
+        {
+          "attributeId": "attr-gender",
+          "selectedOptions": [
+            "Women"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-heel-01",
+          "sku": "APB-HL-01-UK5-BLK",
+          "attributes": {
+            "Size": "UK 5",
+            "Colour": "Onyx Black"
+          },
+          "price": 3200,
+          "salePrice": 2890,
+          "stock": 10
+        },
+        {
+          "id": "v-heel-02",
+          "sku": "APB-HL-02-UK6-BLK",
+          "attributes": {
+            "Size": "UK 6",
+            "Colour": "Onyx Black"
+          },
+          "price": 3200,
+          "salePrice": 2890,
+          "stock": 14
+        },
+        {
+          "id": "v-heel-03",
+          "sku": "APB-HL-03-UK7-BLK",
+          "attributes": {
+            "Size": "UK 7",
+            "Colour": "Onyx Black"
+          },
+          "price": 3200,
+          "salePrice": 2890,
+          "stock": 11
+        },
+        {
+          "id": "v-heel-04",
+          "sku": "APB-HL-04-UK6-TAN",
+          "attributes": {
+            "Size": "UK 6",
+            "Colour": "Cognac Tan"
+          },
+          "price": 3200,
+          "salePrice": 2890,
+          "stock": 8
+        },
+        {
+          "id": "v-heel-05",
+          "sku": "APB-HL-05-UK7-TAN",
+          "attributes": {
+            "Size": "UK 7",
+            "Colour": "Cognac Tan"
+          },
+          "price": 3200,
+          "salePrice": 2890,
+          "stock": 7
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 50,
+        "allowBackorder": true,
+        "lowStockThreshold": 3
+      },
+      "weight": 0.85,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 4.8,
+      "reviewCount": 29,
+      "seo": {
+        "title": "Aura Sculpted Stiletto Pump in Nappa Calfskin | Ashphets",
+        "description": "Designer pointed-toe luxury heels in South Africa.",
+        "keywords": [
+          "heels",
+          "stiletto"
+        ]
+      },
+      "createdAt": "2026-02-15T14:30:00Z"
+    },
+    {
+      "id": "prod-ashphets-004",
+      "storeId": "store-poderemporium-001",
+      "name": "Serena Merino Shearling Boudoir Slipper",
+      "slug": "serena-merino-shearling-boudoir-slipper",
+      "sku": "APB-WSLP-004",
+      "description": "Wrap your feet in pure cloud-like decadence. Handcrafted with 100% authentic South African Merino sheepskin shearling and an ergonomic lightweight anti-slip rubber outsole for luxurious lounging at home or poolside villas.",
+      "shortDescription": "Plush authentic Merino sheepskin shearling mule slipper with ergonomic lightweight sole.",
+      "price": 1850,
+      "costPrice": 700,
+      "images": [
+        "https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-women",
+        "cat-women-slippers"
+      ],
+      "collectionIds": [
+        "col-best-sellers",
+        "col-velvet-series"
+      ],
+      "tags": [
+        "womens-slippers",
+        "shearling",
+        "comfort",
+        "merino-wool",
+        "loungewear"
+      ],
+      "brand": "Ashphets Boudoir",
+      "attributes": [
+        {
+          "attributeId": "attr-size",
+          "selectedOptions": [
+            "UK 4",
+            "UK 5",
+            "UK 6",
+            "UK 7",
+            "UK 8"
+          ]
+        },
+        {
+          "attributeId": "attr-color",
+          "selectedOptions": [
+            "Cognac Tan",
+            "Onyx Black"
+          ]
+        },
+        {
+          "attributeId": "attr-material",
+          "selectedOptions": [
+            "Sheepskin Shearling"
+          ]
+        },
+        {
+          "attributeId": "attr-gender",
+          "selectedOptions": [
+            "Women",
+            "Unisex"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-wslp-01",
+          "sku": "APB-WSL-01-UK5-TAN",
+          "attributes": {
+            "Size": "UK 5",
+            "Colour": "Cognac Tan"
+          },
+          "price": 1850,
+          "stock": 19
+        },
+        {
+          "id": "v-wslp-02",
+          "sku": "APB-WSL-02-UK6-TAN",
+          "attributes": {
+            "Size": "UK 6",
+            "Colour": "Cognac Tan"
+          },
+          "price": 1850,
+          "stock": 24
+        },
+        {
+          "id": "v-wslp-03",
+          "sku": "APB-WSL-03-UK7-TAN",
+          "attributes": {
+            "Size": "UK 7",
+            "Colour": "Cognac Tan"
+          },
+          "price": 1850,
+          "stock": 15
+        },
+        {
+          "id": "v-wslp-04",
+          "sku": "APB-WSL-04-UK6-BLK",
+          "attributes": {
+            "Size": "UK 6",
+            "Colour": "Onyx Black"
+          },
+          "price": 1850,
+          "stock": 12
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 70,
+        "allowBackorder": true,
+        "lowStockThreshold": 5
+      },
+      "weight": 0.6,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 35,
+      "seo": {
+        "title": "Serena Merino Shearling Boudoir Slipper | Ashphets",
+        "description": "Warm luxury sheepskin slippers in South Africa.",
+        "keywords": [
+          "shearling slippers",
+          "luxury slippers"
+        ]
+      },
+      "createdAt": "2026-01-28T16:00:00Z"
+    },
+    {
+      "id": "prod-ashphets-005",
+      "storeId": "store-poderemporium-001",
+      "name": "Belgravia Suede Penny Loafer in Cognac",
+      "slug": "belgravia-suede-penny-loafer-cognac",
+      "sku": "APB-LOAF-005",
+      "description": "Effortless continental charm. Constructed from ultra-supple Italian calf suede with traditional hand-stitched apron detailing and a water-resistant finish. Perfect for business casual elegance or weekend country clubs.",
+      "shortDescription": "Hand-stitched Italian calf suede penny loafer with flexible Blake-stitched sole.",
+      "price": 2950,
+      "costPrice": 1300,
+      "images": [
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-men",
+        "cat-men-shoes"
+      ],
+      "collectionIds": [
+        "col-new-arrivals",
+        "col-best-sellers"
+      ],
+      "tags": [
+        "loafers",
+        "suede",
+        "casual-formal",
+        "mens-shoes"
+      ],
+      "brand": "Ashphets Atelier",
+      "attributes": [
+        {
+          "attributeId": "attr-size",
+          "selectedOptions": [
+            "UK 7",
+            "UK 8",
+            "UK 9",
+            "UK 10",
+            "UK 11"
+          ]
+        },
+        {
+          "attributeId": "attr-color",
+          "selectedOptions": [
+            "Cognac Tan",
+            "Midnight Navy",
+            "Chocolate Brown"
+          ]
+        },
+        {
+          "attributeId": "attr-material",
+          "selectedOptions": [
+            "Suede"
+          ]
+        },
+        {
+          "attributeId": "attr-gender",
+          "selectedOptions": [
+            "Men"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-loaf-01",
+          "sku": "APB-LF-01-UK8-TAN",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Cognac Tan"
+          },
+          "price": 2950,
+          "stock": 12
+        },
+        {
+          "id": "v-loaf-02",
+          "sku": "APB-LF-02-UK9-TAN",
+          "attributes": {
+            "Size": "UK 9",
+            "Colour": "Cognac Tan"
+          },
+          "price": 2950,
+          "stock": 10
+        },
+        {
+          "id": "v-loaf-03",
+          "sku": "APB-LF-03-UK10-TAN",
+          "attributes": {
+            "Size": "UK 10",
+            "Colour": "Cognac Tan"
+          },
+          "price": 2950,
+          "stock": 6
+        },
+        {
+          "id": "v-loaf-04",
+          "sku": "APB-LF-04-UK8-NVY",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Midnight Navy"
+          },
+          "price": 2950,
+          "stock": 8
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 36,
+        "allowBackorder": true,
+        "lowStockThreshold": 3
+      },
+      "weight": 1.1,
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 4.7,
+      "reviewCount": 18,
+      "seo": {
+        "title": "Belgravia Suede Penny Loafer | Ashphets",
+        "description": "Italian calf suede penny loafers handcrafted in South Africa.",
+        "keywords": [
+          "suede loafer",
+          "penny loafers"
+        ]
+      },
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": "prod-ashphets-006",
+      "storeId": "store-poderemporium-001",
+      "name": "Kensington Crocodile-Embossed Chelsea Boot",
+      "slug": "kensington-crocodile-embossed-chelsea-boot",
+      "sku": "APB-BOOT-006",
+      "description": "Bold texture meets immaculate proportions. Crafted with premium calf leather stamped in an exotic crocodile grain, featuring double elastic gussets and woven pull tabs for effortless entry.",
+      "shortDescription": "Exotic crocodile-stamped leather Chelsea boot with reinforced Goodyear-welt storm welt.",
+      "price": 4200,
+      "costPrice": 2100,
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-men",
+        "cat-men-shoes"
+      ],
+      "collectionIds": [
+        "col-new-arrivals"
+      ],
+      "tags": [
+        "chelsea-boot",
+        "crocodile-embossed",
+        "boots",
+        "statement-shoes"
+      ],
+      "brand": "Ashphets Atelier",
+      "attributes": [
+        {
+          "attributeId": "attr-size",
+          "selectedOptions": [
+            "UK 7",
+            "UK 8",
+            "UK 9",
+            "UK 10",
+            "UK 11"
+          ]
+        },
+        {
+          "attributeId": "attr-color",
+          "selectedOptions": [
+            "Onyx Black",
+            "Chocolate Brown"
+          ]
+        },
+        {
+          "attributeId": "attr-material",
+          "selectedOptions": [
+            "Crocodile Embossed Leather"
+          ]
+        },
+        {
+          "attributeId": "attr-gender",
+          "selectedOptions": [
+            "Men"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-boot-01",
+          "sku": "APB-BT-01-UK8-BLK",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Onyx Black"
+          },
+          "price": 4200,
+          "stock": 6
+        },
+        {
+          "id": "v-boot-02",
+          "sku": "APB-BT-02-UK9-BLK",
+          "attributes": {
+            "Size": "UK 9",
+            "Colour": "Onyx Black"
+          },
+          "price": 4200,
+          "stock": 8
+        },
+        {
+          "id": "v-boot-03",
+          "sku": "APB-BT-03-UK10-BLK",
+          "attributes": {
+            "Size": "UK 10",
+            "Colour": "Onyx Black"
+          },
+          "price": 4200,
+          "stock": 4
+        },
+        {
+          "id": "v-boot-04",
+          "sku": "APB-BT-04-UK8-BRN",
+          "attributes": {
+            "Size": "UK 8",
+            "Colour": "Chocolate Brown"
+          },
+          "price": 4200,
+          "stock": 5
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 23,
+        "allowBackorder": true,
+        "lowStockThreshold": 2
+      },
+      "weight": 1.6,
+      "status": "active",
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "rating": 5,
+      "reviewCount": 12,
+      "seo": {
+        "title": "Kensington Crocodile Chelsea Boot | Ashphets",
+        "description": "Crocodile embossed leather boots.",
+        "keywords": [
+          "boots",
+          "chelsea boot"
+        ]
+      },
+      "createdAt": "2026-03-05T10:00:00Z"
+    },
+    {
+      "id": "prod-df-001",
+      "storeId": "store-demo-fashion-002",
+      "name": "Architectural Oversized Trench Coat",
+      "slug": "architectural-oversized-trench-coat",
+      "sku": "DFS-TRN-01",
+      "description": "Double-breasted water-repellent cotton twill trench coat with exaggerated raglan shoulders and removable belt.",
+      "shortDescription": "Heavyweight organic cotton twill oversized trench coat.",
+      "price": 240,
+      "salePrice": 195,
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-df-outerwear"
+      ],
+      "collectionIds": [
+        "col-df-spring",
+        "col-df-best"
+      ],
+      "tags": [
+        "outerwear",
+        "trench",
+        "minimalist"
+      ],
+      "brand": "Apex NYC",
+      "attributes": [
+        {
+          "attributeId": "attr-df-size",
+          "selectedOptions": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        {
+          "attributeId": "attr-df-color",
+          "selectedOptions": [
+            "Vintage Cream",
+            "Pure Black"
+          ]
+        },
+        {
+          "attributeId": "attr-df-fit",
+          "selectedOptions": [
+            "Oversized"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-df-01",
+          "sku": "DFS-TRN-01-S-CRM",
+          "attributes": {
+            "Size": "S",
+            "Colour": "Vintage Cream"
+          },
+          "price": 240,
+          "salePrice": 195,
+          "stock": 15
+        },
+        {
+          "id": "v-df-02",
+          "sku": "DFS-TRN-02-M-CRM",
+          "attributes": {
+            "Size": "M",
+            "Colour": "Vintage Cream"
+          },
+          "price": 240,
+          "salePrice": 195,
+          "stock": 20
+        },
+        {
+          "id": "v-df-03",
+          "sku": "DFS-TRN-03-L-BLK",
+          "attributes": {
+            "Size": "L",
+            "Colour": "Pure Black"
+          },
+          "price": 240,
+          "salePrice": 195,
+          "stock": 12
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 47,
+        "allowBackorder": false,
+        "lowStockThreshold": 5
+      },
+      "status": "active",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "rating": 4.9,
+      "reviewCount": 16,
+      "seo": {
+        "title": "Architectural Trench Coat | Demo Fashion",
+        "description": "Minimalist trench coat.",
+        "keywords": [
+          "coat",
+          "trench"
+        ]
+      },
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": "prod-df-002",
+      "storeId": "store-demo-fashion-002",
+      "name": "Ribbed Silk-Blend Column Maxi Dress",
+      "slug": "ribbed-silk-blend-column-maxi-dress",
+      "sku": "DFS-DRS-02",
+      "description": "Sculptural fine-gauge ribbed knit maxi dress crafted from breathable mulberry silk and organic cotton.",
+      "shortDescription": "Fine-gauge ribbed silk-cotton column dress with square neckline.",
+      "price": 160,
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "categoryIds": [
+        "cat-df-dresses"
+      ],
+      "collectionIds": [
+        "col-df-spring"
+      ],
+      "tags": [
+        "dress",
+        "silk",
+        "ribbed"
+      ],
+      "brand": "Apex NYC",
+      "attributes": [
+        {
+          "attributeId": "attr-df-size",
+          "selectedOptions": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ]
+        },
+        {
+          "attributeId": "attr-df-color",
+          "selectedOptions": [
+            "Pure Black",
+            "Sage Green"
+          ]
+        },
+        {
+          "attributeId": "attr-df-fit",
+          "selectedOptions": [
+            "Tailored Slim"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-dfd-01",
+          "sku": "DFS-DRS-01-S-BLK",
+          "attributes": {
+            "Size": "S",
+            "Colour": "Pure Black"
+          },
+          "price": 160,
+          "stock": 18
+        },
+        {
+          "id": "v-dfd-02",
+          "sku": "DFS-DRS-02-M-BLK",
+          "attributes": {
+            "Size": "M",
+            "Colour": "Pure Black"
+          },
+          "price": 160,
+          "stock": 22
+        },
+        {
+          "id": "v-dfd-03",
+          "sku": "DFS-DRS-03-S-SGE",
+          "attributes": {
+            "Size": "S",
+            "Colour": "Sage Green"
+          },
+          "price": 160,
+          "stock": 14
+        }
+      ],
+      "inventory": {
+        "trackStock": true,
+        "quantity": 54,
+        "allowBackorder": false,
+        "lowStockThreshold": 4
+      },
+      "status": "active",
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviewCount": 22,
+      "seo": {
+        "title": "Column Maxi Dress | Demo Fashion",
+        "description": "Ribbed silk maxi dress.",
+        "keywords": [
+          "dress",
+          "maxi"
+        ]
+      },
+      "createdAt": "2026-03-02T10:00:00Z"
+    }
+  ]
+}
